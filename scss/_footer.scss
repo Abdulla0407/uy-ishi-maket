@@ -1,0 +1,42 @@
+.container__footer {
+    max-width: 1440px;
+    width: 100%;
+    padding: 69px 250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: #222222;
+    gap: 0 54px;
+
+    .footer__div {
+        display: flex;
+    }
+
+
+    .footer__doira {
+        width: 64px;
+        height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        margin-right: 12px;
+        background-color: #FFDC60;
+    }
+
+    .footer__h {
+        @include h__two-alement();
+        color: #ffffff;
+    }
+
+    .footer__p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 110%;
+        text-align: justify;
+        color: #FFFFFF;
+        margin-top: 11px;
+    }
+}
